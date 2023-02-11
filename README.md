@@ -18,3 +18,18 @@ Material de estudos práticos do Programa ONE da Oracle
 * protected (visível na classe mesmo pacote e para qualquer filho)
 * public (visível em qualquer pacote)
 
+* Declarar um javadoc no código fonte:  usar o char / seguidos por 2 chars **
+
+* Lista de tags ou anotações do javadoc:
+    * @author (usado na classe ou interface)
+    * @version (usado na classe ou interface)
+    * @param (usado no método e construtor)
+    * @return (usado apenas no método)
+    * @exception ou @throws (no método ou construtor)
+    * @see
+    * @since
+    * @serial
+    * @deprecated
+
+* Criar biblioteca: Project > Generate Javadoc > Javadoc Generation
+* Export Doc: JAR file (cria pasta zip) Java ARchive
