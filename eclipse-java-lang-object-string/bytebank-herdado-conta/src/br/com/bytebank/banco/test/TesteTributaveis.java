@@ -1,3 +1,6 @@
+package br.com.bytebank.banco.test;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteTributaveis {
 
@@ -12,7 +15,5 @@ public class TesteTributaveis {
 		calc.registra(seguro);
 		
 		System.out.println(calc.getTotalImposto());
-
 	}
-
 }

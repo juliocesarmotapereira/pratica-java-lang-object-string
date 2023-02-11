@@ -1,3 +1,6 @@
+package br.com.bytebank.banco.test;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteSaca {
 
@@ -13,7 +16,5 @@ public class TesteSaca {
 		}
 		
 		System.out.println(conta.getSaldo());
-
 	}
-
 }
