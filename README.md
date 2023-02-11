@@ -11,3 +11,10 @@ Material de estudos práticos do Programa ONE da Oracle
 * Hierarquia: package > import > class.
 
 * Atalho para import: Ctrl + Shift + O
+
+* Quatro modificadores de ordem do MAIS restritivo para o MENOS restritivo é: private, default, protected e public.
+* private (visível apenas na classe)
+* package private (visível na classe do mesmo pacote, podendo ser chamado de default)
+* protected (visível na classe mesmo pacote e para qualquer filho)
+* public (visível em qualquer pacote)
+
